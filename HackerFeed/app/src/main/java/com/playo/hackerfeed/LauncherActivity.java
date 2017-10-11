@@ -26,6 +26,10 @@ public class LauncherActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String category = etCategory.getText().toString();
+                if (category == null || category.length() == 0) {
+                    Toast.makeText(LauncherActivity.this, "Enter a valid category", Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 Intent i = new Intent(LauncherActivity.this, HackerFeedActivity.class);
                 i.putExtra(ARG_CATEGORY, category);
                 startActivity(i);
