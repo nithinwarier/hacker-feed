@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recycler_view_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        tools:listitem="@layout/item_type_feed_entry"
+        android:paddingBottom="88dp"
+        android:layout_marginTop="@dimen/margin_4"
+        android:visibility="visible"
+        />
+
+    <ProgressBar
+        android:id="@+id/pb_loader"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal|bottom"
+        android:padding="8dp"
+        />
+
+    <TextView
+        android:id="@+id/txv_error"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:maxLines="3"
+        android:textStyle="bold"
+        android:layout_marginTop="6dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:text="qqweqweer" />
+
+</FrameLayout>
