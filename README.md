@@ -6,8 +6,9 @@ In first page, 10 items will be shown and go on.
 </br>
 Two Andorid projects are there in the repository. 
 
+</br>
 <ol>
-  <item>Android construct AsyncTask</item
-    <item>With RxJava</item>
+  <li>Android construct AsyncTask and</li>
+  <li>With RxJava</li>
 </ol>
 
