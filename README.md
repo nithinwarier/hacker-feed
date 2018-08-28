@@ -8,6 +8,6 @@ Two Andorid projects are there in the repository.
 
 <ol>
   <item>Android construct AsyncTask</item
-  <item>With RxJava</item
+    <item>With RxJava</item>
 </ol>
 
