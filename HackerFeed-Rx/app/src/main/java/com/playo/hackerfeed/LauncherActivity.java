@@ -1,14 +1,16 @@
 package com.playo.hackerfeed;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class LauncherActivity extends AppCompatActivity {
+import androidx.fragment.app.FragmentActivity;
+
+
+public class LauncherActivity extends FragmentActivity {
 
     public static final String ARG_CATEGORY = "arg_category";
 
